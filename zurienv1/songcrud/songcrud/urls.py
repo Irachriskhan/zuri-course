@@ -17,7 +17,8 @@ from django.contrib import admin
 from django.urls import path, include
 # from django.urls import path
 
+# STEP 3
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("musicapp/", include('musicapp.urls'))
+    path('musicapp/', include('musicapp.urls'))
 ]
