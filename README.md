@@ -1,2 +1,2 @@
 # zuri-course
-Getting started with python
+Getting started with Django for Full Stack Developer
