@@ -1,1 +1,64 @@
-<h1>Good Morning Programmers</h1>
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex design</title>
+</head>
+<body>
+    <div class="head">
+        <h2>Flex design</h2>
+    </div>
+    <div class="nav">
+        <div class="line">
+            <a href="index.html">Home</a>
+            <a href="grid.html" target="_parent">Grid page</a>
+        </div>
+    </div>
+    <div class="flex-container">
+        <div class="side">
+            
+        </div>
+        <div class="flex-item1">
+            <img src="images/icon-sedans.svg" alt="Sedan image">
+            <h2>SEDANS</h2>
+            <p class="describe">
+                Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising
+                in the city or on your next trip.
+            </p>
+            <p class="learn">
+                <a href="#">Learn More</a>
+            </p>
+        </div>
+        <div class="flex-item2">
+            <img src="images/icon-suvs.svg" alt="Sedan image">
+            <h2>SUVS</h2>
+            <P class="describe">
+                Take a SUV for its spacious interior, power, and versatility. Perfect for
+                your next family vaccination and off-road advantures.
+            </P>
+            <p class="learn">
+                <a href="#">Learn More</a>
+            </p>
+        </div>
+        <div class="flex-item3">
+            <img src="images/Flexbox/icon-luxury.svg" alt="Sedan image">
+            <h2>LUXURY</h2>
+            <P class="describe">
+                Cruise in the best car brands without the bloated prices.
+                Enjoy the enhenced comfort of a luxury rental and arrive in style.
+            </P>
+            <p class="learn">
+                <a href="#">Learn More</a>
+            </p>
+        </div>
+        <div class="side">
+            
+        </div>
+    </div>
+</body>
+</html>
